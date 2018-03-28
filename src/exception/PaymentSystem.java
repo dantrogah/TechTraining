@@ -26,6 +26,7 @@ public class PaymentSystem {
 				}
 			}catch(NegativePaymentException e){
 				System.out.println(e.toString());
+				System.out.println("Please Try Again");
 			}
 			
 		}while(negativePayment);
